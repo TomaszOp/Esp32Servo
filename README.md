@@ -11,5 +11,5 @@ use
   servo.attach(int pin, int min, int max, int channel, int pwmReq);
   servo.attach(int pin, int min, int max, int channel, int pwmReq, int res);
 
-  servo.write(int value);                 
+  servo.write(int value);   // 0 - 180              
   servo.writeMicroseconds(int value);  
