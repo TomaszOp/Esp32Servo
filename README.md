@@ -1,15 +1,15 @@
 # Esp32Servo
-Esp32 arduino library servo 180
-
-use
-  
-  Servo servo;
-  
-  servo.attach(int pin);                   
-  servo.attach(int pin, int min, int max); 
-  servo.attach(int pin, int min, int max, int channel);
-  servo.attach(int pin, int min, int max, int channel, int pwmReq);
-  servo.attach(int pin, int min, int max, int channel, int pwmReq, int res);
-
-  servo.write(int value);   // 0 - 180              
-  servo.writeMicroseconds(int value);  
+Esp32 arduino library servo 180 <br>
+ <br>
+use <br>
+   <br>
+  Servo servo; <br>
+   <br>
+  servo.attach(int pin);   <br>                 
+  servo.attach(int pin, int min, int max);  <br>
+  servo.attach(int pin, int min, int max, int channel); <br>
+  servo.attach(int pin, int min, int max, int channel, int pwmReq); <br>
+  servo.attach(int pin, int min, int max, int channel, int pwmReq, int res); <br>
+ <br>
+  servo.write(int value);   // 0 - 180      <br>         
+  servo.writeMicroseconds(int value);   <br>
